@@ -3,6 +3,7 @@ package io.keweishang.scala.akka.router.balancingpool
 
 import akka.actor.{Actor, ActorLogging, ActorRef, ActorSystem, Props}
 import akka.routing.{BalancingPool, RoundRobinPool}
+import com.typesafe.config.ConfigFactory
 
 import scala.io.StdIn
 
